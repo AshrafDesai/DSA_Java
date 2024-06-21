@@ -1,4 +1,5 @@
 package Linkedlist;
+//Singly Linked list
 
 public class LL 
 {
@@ -44,30 +45,6 @@ public class LL
         currNode.next = newNode;
     }
     
-    public boolean remove(int data)
-    {
-        if(head == null) 
-        {
-            return false;
-        }
-        if(head.data == data)
-        {
-            head = head.next;
-            return true;
-        }
-        Node current = head;
-        while(current.next != null)
-        {
-            if(current.next.data == data)
-            {
-                current.next = current.next.next;
-                return true;
-            }
-            current = current.next;
-        }
-        return false;
-    }
-
     public void deletefirst()
     {
         if(head == null)
@@ -116,8 +93,7 @@ public class LL
         System.out.println("NULL");
     }
 
-    // Main method to test the LinkedList class
-    public static void main(String[] args) 
+        public static void main(String[] args) 
     {
         LL list = new LL();
         list.addfirst(1);
