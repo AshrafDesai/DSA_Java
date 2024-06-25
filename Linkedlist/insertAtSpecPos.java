@@ -25,8 +25,6 @@ public class insertAtSpecPos {
 
     public void insertAtPosition(int pos, int data) {
         Node newNode = new Node(data);
-
-        // If inserting at the head (position 0)
         if (pos == 0) {
             newNode.next = head;
             head = newNode;
