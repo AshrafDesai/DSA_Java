@@ -28,6 +28,7 @@ public class search {
                 break;
             }
         }
-        
+        sc.close();
     }
+    
 }
