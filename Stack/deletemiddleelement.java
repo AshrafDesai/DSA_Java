@@ -27,7 +27,8 @@ public class deletemiddleelement {
 
     private static void deleteMiddleUtil(Stack<Integer> stack, int currentIndex) {
         
-        if (currentIndex == 0) {
+        if (currentIndex == 0) 
+        {
             stack.pop();
             return;
         }
