@@ -3,7 +3,6 @@ package Stack;
 import java.util.Stack;
 public class Largestrectanglehistogram 
 {
-
     public static void main(String[] args) 
     {
         int[] heights = {2, 1, 5, 6, 2, 3};
