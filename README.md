@@ -7,31 +7,20 @@ What are Data Structures and Algorithms?
 Data Structures are ways of organizing and storing data so that they can be accessed and modified efficiently. Examples include arrays, linked lists, stacks, queues, trees, and graphs. Each data structure has its own strengths and weaknesses and is suitable for different kinds of tasks.
 Algorithms are step-by-step procedures or formulas for solving problems. They are used to manipulate data in various ways, such as sorting a list of numbers, searching for an item in a database, or finding the shortest path between two points in a graph. Good algorithms are designed to be efficient in terms of both time and space.
 
-Implemented Data Structures
-Linked List: Singly and Doubly Linked Lists
-Stack: Array-based and Linked List-based Stacks
-Queue: Array-based and Linked List-based Queues
-Binary Tree: Binary Search Tree, AVL Tree
-Heap: Min-Heap, Max-Heap
-Graph: Adjacency List, Adjacency Matrix
-Hash Table: Open Addressing, Separate Chaining
-Implemented Algorithms
-Sorting Algorithms
-Bubble Sort
-Selection Sort
-Insertion Sort
-Merge Sort
-Quick Sort
-Heap Sort
-Searching Algorithms
-Linear Search
-Binary Search
-Other Algorithms
-Graph Algorithms: BFS, DFS, Dijkstra's Algorithm
-Dynamic Programming: Knapsack, Longest Common Subsequence
-Greedy Algorithms: Huffman Coding, Kruskal's Algorithm
-Contributing
-We welcome contributions! If you would like to contribute, please follow these steps:
+
+### What Will You Find in This Repository?
+
+This repository covers a wide range of topics, including but not limited to:
+
+- Arrays
+- Stacks
+- Queues
+- Linked Lists
+- Trees
+- Graphs
+- Strings
+- Sorting Algorithms
+- Searching Algorithms
 
 Fork the repository.
 Create a new branch (git checkout -b feature/YourFeature).
