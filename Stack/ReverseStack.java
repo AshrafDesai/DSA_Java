@@ -15,7 +15,7 @@ public class ReverseStack {
 
         System.out.println("Original Stack: " + stack);
         ReverseStack reverse = new ReverseStack();
-        reverse.reverseStack(stack);  // Pass the stack object
+        reverse.reverseStack(stack);  
         System.out.println("Modified Stack: " + stack);
     }
 
