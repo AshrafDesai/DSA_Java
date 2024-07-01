@@ -14,35 +14,44 @@ public class circularqueue {
             rear = -1;
         }
 
-        public boolean isEmpty() {
+        public boolean isEmpty() 
+        {
             return (rear == -1 && front == -1);
         }
 
-        public boolean isFull() {
+        public boolean isFull() 
+        {
             return (rear + 1) % n == front;
         }
 
         public void add(int data) {
-            if (isFull()) {
+            if (isFull()) 
+            {
                 System.out.println("Queue is Full");
                 return;
             }
-            if (front == -1) {
+            if (front == -1) 
+            {
                 front = 0;
             }
             rear = (rear + 1) % n;
             arr[rear] = data;
         }
 
-        public int remove() {
-            if (isEmpty()) {
+        public int remove() 
+        {
+            if (isEmpty()) 
+            {
                 System.out.println("Queue is Empty");
                 return -1;
             }
             int result = arr[front];
-            if (front == rear) { 
+            if (front == rear) 
+            { 
                 front = rear = -1;
-            } else {
+            } 
+            else 
+            {
                 front = (front + 1) % n;
             }
             return result;
