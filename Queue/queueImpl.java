@@ -1,6 +1,7 @@
 package Queue;
 
-public class queueImpl {
+public class queueImpl
+{
     int[] arr;
     int front;
     int rear;

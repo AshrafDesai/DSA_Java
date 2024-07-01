@@ -6,7 +6,8 @@ public class StackImpl {
     int size;
 
     
-    public StackImpl(int n) {
+    public StackImpl(int n) 
+    {
         arr = new int[n];
         top = -1;
         size = n;
