@@ -36,7 +36,8 @@ public class circularqueueLL {
             }
 
             int front = head.data;
-            if (head == tail) {
+            if (head == tail) 
+            {
                 tail = null;
             }
             head = head.next;
