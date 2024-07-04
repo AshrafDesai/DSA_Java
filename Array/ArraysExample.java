@@ -7,7 +7,7 @@ public class ArraysExample {
         int size = sc.nextInt();
         int[] arr = new int[size];
         
-        System.out.println("Enter the elements:");
+        System.out.println("Enter the element:");
         for(int i = 0; i < size; i++) {
             System.out.print("Element " + (i + 1) + ": ");
             arr[i] = sc.nextInt();
@@ -21,9 +21,9 @@ public class ArraysExample {
         
         if (arr.length > 0) {
             System.out.println("\nAccessing elements:");
-            System.out.println("First element: " + arr[0]); // Accessing first element
+            System.out.println("First element: " + arr[0]); 
             if (arr.length > 2) {
-                System.out.println("Third element: " + arr[2]); // Accessing third element
+                System.out.println("Third element: " + arr[2]); 
             } else {
                 System.out.println("Array does not have a third element.");
             }
