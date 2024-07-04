@@ -100,7 +100,7 @@ public class LL
         list.addfirst(2);
         list.addlast(3);
         list.addlast(4);
-
+        list.addfirst(5);
         System.out.println("Linked List:");
         list.display();
 
