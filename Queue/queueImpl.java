@@ -69,6 +69,7 @@ public class queueImpl
         q.push(5);
         q.push(10);
         q.push(12);
+        q.push(20);
 
         System.out.println("Front element is: " + q.peek());
         
