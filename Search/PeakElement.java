@@ -17,11 +17,9 @@ public class PeakElement {
             } 
             else 
             {
-                
                 left = mid + 1;
             }
         }
-
         return left; 
     }
 
