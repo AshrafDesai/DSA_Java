@@ -33,7 +33,8 @@ public class first_last_position_of_element {
         int right = arr.length - 1; 
         int ans = -1;
 
-        while (left <= right) {
+        while (left <= right) 
+        {
             int mid = left + (right - left) / 2;
 
             if (arr[mid] == key) 
@@ -64,3 +65,8 @@ public class first_last_position_of_element {
         System.out.println("Last Occurrence of " + key + ": " + lastIndex);
     }
 }
+/*
+ * _element' 
+First Occurrence of 3: 2
+Last Occurrence of 3: 3
+ */
