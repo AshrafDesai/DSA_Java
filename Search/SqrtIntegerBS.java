@@ -3,7 +3,8 @@ package Search;
 public class SqrtIntegerBS {
 
     public static int binarySearch(int x) {
-        if (x == 0 || x == 1) {
+        if (x == 0 || x == 1) 
+        {
             return x; 
         }
 
