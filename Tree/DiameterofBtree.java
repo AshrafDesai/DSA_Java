@@ -2,7 +2,8 @@ package Tree;
 
 import java.util.Scanner;
 
-public class DiameterofBtree {
+public class DiameterofBtree 
+{
     static class Node 
     {
         int data;

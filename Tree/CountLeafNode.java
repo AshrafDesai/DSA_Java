@@ -32,8 +32,6 @@ public class CountLeafNode
         }
         return countLeafNodes(root.left) + countLeafNodes(root.right);
     }
-
-    
     public static Node buildTree(Scanner sc) 
     {
         System.out.println("Enter the data (-1 for no node):");
