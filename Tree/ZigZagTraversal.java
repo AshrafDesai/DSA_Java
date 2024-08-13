@@ -26,7 +26,7 @@ public class ZigZagTraversal
         int data = sc.nextInt();
 
         if (data == -1) 
-        {
+        { 
             return null;
         }
         Node newNode = new Node(data);
